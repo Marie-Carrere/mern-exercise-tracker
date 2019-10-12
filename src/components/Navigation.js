@@ -7,13 +7,13 @@ const Navigation = () => (
     <div className="collapse navbar-collapse">
       <ul className="navbar-nav mr-auto">
         <li className="navbar-item">
-          <Link to='/' className="nav-link">Exercises</Link>
+          <Link to='/edit/:id' className="nav-link">Exercises</Link>
         </li>
         <li className="navbar-item">
-          <Link to='/' className="nav-link">Create Exercise Log</Link>
+          <Link to='/create' className="nav-link">Create Exercise Log</Link>
         </li>
         <li className="navbar-item">
-          <Link to='/' className="nav-link">Create User</Link>
+          <Link to='/user' className="nav-link">Create User</Link>
         </li>
       </ul>
     </div>
