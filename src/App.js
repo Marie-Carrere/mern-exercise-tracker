@@ -10,12 +10,15 @@ import ExercisesList from './components/ExercisesList';
 function App() {
   return (
     <Router>
-      <Navigation />
-      <br/>
-      <Route path='/' exact component={ExercisesList} />
-      <Route path='/edit/:id' exact component={EditExercise} />
-      <Route path='/create' exact component={CreateExercise} />
-      <Route path='/user' exact component={CreateUser} />
+      <div className="container">
+        <Navigation />
+        <br />
+        <Route path='/' exact component={ExercisesList} />
+        <Route path='/edit/:id' exact component={EditExercise} />
+        <Route path='/create' exact component={CreateExercise} />
+        <Route path='/user' exact component={CreateUser} />
+      </div>
+      
     </Router>
     
   );
